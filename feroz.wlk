@@ -19,7 +19,7 @@ object feroz {
   }
 
   method loboCome (algo) {
-    peso = algo.peso() * 0.1
+    peso = peso + algo.peso() * 0.1
   }
 
   method loboCorre() {
